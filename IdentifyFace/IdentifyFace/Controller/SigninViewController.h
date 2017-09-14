@@ -13,5 +13,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *password;
 @property (weak, nonatomic) IBOutlet UITextField *confirmPassword;
 - (IBAction)signinNextStep:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UINavigationBar *SINavigation;
 
 @end

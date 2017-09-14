@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "IdentityFaceViewController.h"
 
 @interface LoginViewController ()
 
@@ -34,8 +35,21 @@
 }
 */
 
-- (IBAction)login {
-    
-}
+//- (IBAction)loginButton:(id)sender {
+//    NSString *username = self.account.text;
+//    NSString *password = self.password.text;
+//    NSDictionary *parameters = @{@"username":username,
+//                                 @"password":password
+//                                 };
+//    //请求的url
+//    NSString *urlString = @"http://**********/Api/****/login";
+//    //请求的manager
+//    AFHTTPSessionManager *managers = [AFHTTPSessionManager manager];
+//    //请求的方式POST
+//    [managers POST:urlString parameters:parameters success:^(NSURLSessionDataTask *task, id responseObject) {NSLog(@"请求成功，服务器返回的信息%@",responseObject);
+//    } failure:^(NSURLSessionDataTask *task, NSError * error) {
+//        NSLog(@"请求失败,服务器返回的错误信息%@",error);
+//    }];
+//}
 @end
 

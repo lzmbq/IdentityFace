@@ -9,17 +9,19 @@
 /* Begin PBXBuildFile section */
 		7020B8AB1F0B3DD8008C0261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7020B8AA1F0B3DD8008C0261 /* Assets.xcassets */; };
 		705C00861F5E84E50026A56F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 705C00851F5E84E50026A56F /* Info.plist */; };
-		705C00941F5E9F6F0026A56F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705C00911F5E9F6F0026A56F /* LoginViewController.m */; };
-		705C00951F5E9F6F0026A56F /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705C00931F5E9F6F0026A56F /* SigninViewController.m */; };
 		7086FFDA1F0361D100969BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7086FFD91F0361D100969BFF /* main.m */; };
 		7086FFE81F0361D100969BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7086FFE61F0361D100969BFF /* LaunchScreen.storyboard */; };
 		7086FFF31F0361D100969BFF /* IdentifyFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7086FFF21F0361D100969BFF /* IdentifyFaceTests.m */; };
 		7086FFFE1F0361D100969BFF /* IdentifyFaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7086FFFD1F0361D100969BFF /* IdentifyFaceUITests.m */; };
-		70BD29241F5E3E9F00E67811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70BD29231F5E3E9F00E67811 /* Main.storyboard */; };
 		70BD29841F5E810300E67811 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BD29821F5E810300E67811 /* AppDelegate.m */; };
 		70DFE28B1F1873AE0026E5C7 /* C415F3F13BBD50B1-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70DFE2861F1873AE0026E5C7 /* C415F3F13BBD50B1-info.plist */; };
 		70DFE28C1F1873AE0026E5C7 /* STLVideoFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DFE2881F1873AE0026E5C7 /* STLVideoFunctions.m */; };
 		70DFE28D1F1873AE0026E5C7 /* STLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DFE28A1F1873AE0026E5C7 /* STLVideoViewController.m */; };
+		70F2383C1F6A5BEC00561AC1 /* IdentityFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F238361F6A5BEC00561AC1 /* IdentityFaceViewController.m */; };
+		70F2383D1F6A5BEC00561AC1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F238381F6A5BEC00561AC1 /* LoginViewController.m */; };
+		70F2383E1F6A5BEC00561AC1 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F2383A1F6A5BEC00561AC1 /* SigninViewController.m */; };
+		70F2383F1F6A5BEC00561AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F2383B1F6A5BEC00561AC1 /* Main.storyboard */; };
+		70F238411F6A5CAC00561AC1 /* register_guide_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 70F238401F6A5C1F00561AC1 /* register_guide_video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +44,6 @@
 /* Begin PBXFileReference section */
 		7020B8AA1F0B3DD8008C0261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705C00851F5E84E50026A56F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		705C00901F5E9F6F0026A56F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controller/LoginViewController.h; sourceTree = "<group>"; };
-		705C00911F5E9F6F0026A56F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controller/LoginViewController.m; sourceTree = "<group>"; };
-		705C00921F5E9F6F0026A56F /* SigninViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SigninViewController.h; path = Controller/SigninViewController.h; sourceTree = "<group>"; };
-		705C00931F5E9F6F0026A56F /* SigninViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SigninViewController.m; path = Controller/SigninViewController.m; sourceTree = "<group>"; };
 		7086FFD51F0361D100969BFF /* IdentifyFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdentifyFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7086FFD91F0361D100969BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7086FFE71F0361D100969BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,15 +53,21 @@
 		7086FFF91F0361D100969BFF /* IdentifyFaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdentifyFaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7086FFFD1F0361D100969BFF /* IdentifyFaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdentifyFaceUITests.m; sourceTree = "<group>"; };
 		7086FFFF1F0361D100969BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70BD29231F5E3E9F00E67811 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		70BD29811F5E810300E67811 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Other/AppDelegate.h; sourceTree = "<group>"; };
 		70BD29821F5E810300E67811 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Other/AppDelegate.m; sourceTree = "<group>"; };
-		70BD29861F5E810E00E67811 /* BridgeLoop-640p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BridgeLoop-640p.mp4"; path = "Resources/BridgeLoop-640p.mp4"; sourceTree = "<group>"; };
 		70DFE2861F1873AE0026E5C7 /* C415F3F13BBD50B1-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "C415F3F13BBD50B1-info.plist"; sourceTree = "<group>"; };
 		70DFE2871F1873AE0026E5C7 /* STLVideoFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLVideoFunctions.h; sourceTree = "<group>"; };
 		70DFE2881F1873AE0026E5C7 /* STLVideoFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLVideoFunctions.m; sourceTree = "<group>"; };
 		70DFE2891F1873AE0026E5C7 /* STLVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLVideoViewController.h; sourceTree = "<group>"; };
 		70DFE28A1F1873AE0026E5C7 /* STLVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLVideoViewController.m; sourceTree = "<group>"; };
+		70F238351F6A5BEC00561AC1 /* IdentityFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentityFaceViewController.h; sourceTree = "<group>"; };
+		70F238361F6A5BEC00561AC1 /* IdentityFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentityFaceViewController.m; sourceTree = "<group>"; };
+		70F238371F6A5BEC00561AC1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		70F238381F6A5BEC00561AC1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		70F238391F6A5BEC00561AC1 /* SigninViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigninViewController.h; sourceTree = "<group>"; };
+		70F2383A1F6A5BEC00561AC1 /* SigninViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigninViewController.m; sourceTree = "<group>"; };
+		70F2383B1F6A5BEC00561AC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		70F238401F6A5C1F00561AC1 /* register_guide_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = register_guide_video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +118,14 @@
 		7086FFD71F0361D100969BFF /* IdentifyFace */ = {
 			isa = PBXGroup;
 			children = (
+				70F238341F6A5BEC00561AC1 /* Controller */,
 				70BD297F1F5E7FC200E67811 /* Other */,
 				70BD297E1F5E7FA900E67811 /* Resources */,
-				70BD297D1F5E7F9E00E67811 /* Controller */,
 				70DFE2851F1873AE0026E5C7 /* STLBGVideo */,
-				70BD29231F5E3E9F00E67811 /* Main.storyboard */,
 				7086FFE61F0361D100969BFF /* LaunchScreen.storyboard */,
 				7020B8AA1F0B3DD8008C0261 /* Assets.xcassets */,
 				705C00851F5E84E50026A56F /* Info.plist */,
+				70F2383B1F6A5BEC00561AC1 /* Main.storyboard */,
 				7086FFD81F0361D100969BFF /* Supporting Files */,
 			);
 			path = IdentifyFace;
@@ -153,21 +157,10 @@
 			path = IdentifyFaceUITests;
 			sourceTree = "<group>";
 		};
-		70BD297D1F5E7F9E00E67811 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				705C00901F5E9F6F0026A56F /* LoginViewController.h */,
-				705C00911F5E9F6F0026A56F /* LoginViewController.m */,
-				705C00921F5E9F6F0026A56F /* SigninViewController.h */,
-				705C00931F5E9F6F0026A56F /* SigninViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
 		70BD297E1F5E7FA900E67811 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				70BD29861F5E810E00E67811 /* BridgeLoop-640p.mp4 */,
+				70F238401F6A5C1F00561AC1 /* register_guide_video.mp4 */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -191,6 +184,19 @@
 				70DFE28A1F1873AE0026E5C7 /* STLVideoViewController.m */,
 			);
 			path = STLBGVideo;
+			sourceTree = "<group>";
+		};
+		70F238341F6A5BEC00561AC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70F238351F6A5BEC00561AC1 /* IdentityFaceViewController.h */,
+				70F238361F6A5BEC00561AC1 /* IdentityFaceViewController.m */,
+				70F238371F6A5BEC00561AC1 /* LoginViewController.h */,
+				70F238381F6A5BEC00561AC1 /* LoginViewController.m */,
+				70F238391F6A5BEC00561AC1 /* SigninViewController.h */,
+				70F2383A1F6A5BEC00561AC1 /* SigninViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,11 +306,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F238411F6A5CAC00561AC1 /* register_guide_video.mp4 in Resources */,
 				7086FFE81F0361D100969BFF /* LaunchScreen.storyboard in Resources */,
+				70F2383F1F6A5BEC00561AC1 /* Main.storyboard in Resources */,
 				7020B8AB1F0B3DD8008C0261 /* Assets.xcassets in Resources */,
 				70DFE28B1F1873AE0026E5C7 /* C415F3F13BBD50B1-info.plist in Resources */,
 				705C00861F5E84E50026A56F /* Info.plist in Resources */,
-				70BD29241F5E3E9F00E67811 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,12 +336,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F2383E1F6A5BEC00561AC1 /* SigninViewController.m in Sources */,
 				70DFE28D1F1873AE0026E5C7 /* STLVideoViewController.m in Sources */,
+				70F2383C1F6A5BEC00561AC1 /* IdentityFaceViewController.m in Sources */,
+				70F2383D1F6A5BEC00561AC1 /* LoginViewController.m in Sources */,
 				70BD29841F5E810300E67811 /* AppDelegate.m in Sources */,
-				705C00951F5E9F6F0026A56F /* SigninViewController.m in Sources */,
 				70DFE28C1F1873AE0026E5C7 /* STLVideoFunctions.m in Sources */,
 				7086FFDA1F0361D100969BFF /* main.m in Sources */,
-				705C00941F5E9F6F0026A56F /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

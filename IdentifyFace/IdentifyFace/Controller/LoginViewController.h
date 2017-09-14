@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "STLVideoViewController.h"
 
-@interface LoginViewController : UIViewController
-- (IBAction)login;
+@interface LoginViewController : STLVideoViewController
 @property (weak, nonatomic) IBOutlet UITextField *account;
 @property (weak, nonatomic) IBOutlet UITextField *password;
 
